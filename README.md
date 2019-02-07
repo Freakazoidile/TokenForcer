@@ -15,9 +15,9 @@ Brute force weak, seemingly random values often used in session tracking such as
 
 I couldn't find something that did this how I wanted it done. I often got bored trying to craft and guess potential token values one by one.
 
-TokenForcer was created in order to help web application security researchers and penetration testershelp identify weak, seemingly random values that are in fact created based on known inputs,such as for used in session tokens/cookies that are used to track and identify user sessions.
+TokenForcer was created in order to help web application security researchers and penetration testershelp identify weak, seemingly random values that are in fact created based on known inputs, such as for used in session tokens/cookies that are used to track and identify user sessions.
 
-Sometimes these tokens may be a concatenation of data such as the username, password and the timestamp of when a user signed inand then hashed or encoded such as SHA1 or Base64.
+Sometimes these tokens may be a concatenation of data such as the username, password and the timestamp of when a user signed in and then hashed or encoded such as SHA1 or Base64.
 
 ### What?
 TokenForcer is designed to help users quickly iterate through all possible permutations and combinations of potential data used to craft such a token.
