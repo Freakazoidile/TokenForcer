@@ -363,7 +363,7 @@ def showHelp():
           "* cooler ascii art banner!\n"
           "* the ability to save a token creation scheme (probably use a database) so you can easily craft tokens once you have figure out how it is derived!\n\n"
           "Current Version: 1.00\n\n"
-          "To report bugs and create feature requests please create an issue on the github project page: \n"
+          "To report bugs and create feature requests please create an issue on the github project page: https://github.com/Freakazoidile/TokenForcer\n"
           "For help you can find me on Twitter @freakazoidile https://twitter.com/freakazoidile\n\n"
           "")
 
