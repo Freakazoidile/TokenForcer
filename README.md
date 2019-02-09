@@ -65,6 +65,6 @@ Basic usage will require a text file which has each of the suspected input value
 
 
 ### Help I still don't get it?
-To report bugs and create feature requests please create an issue on the github project page (THE PAGE YOUR ON NOW!): https://github.com/Freakazoidile/TokenForcer
+To report bugs and create feature requests please create an issue on the github project page (THE PAGE YOU'RE ON NOW): https://github.com/Freakazoidile/TokenForcer
 
 For help you can find me on Twitter @freakazoidile https://twitter.com/freakazoidile
