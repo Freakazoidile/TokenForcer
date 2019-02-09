@@ -15,7 +15,7 @@ Brute force weak, seemingly random values often used in session tracking such as
 
 I couldn't find something that did this how I wanted it done. I often got bored trying to craft and guess potential token values one by one.
 
-TokenForcer was created in order to help web application security researchers and penetration testers identify weak, seemingly random values that are in fact created based on known inputs, such as for used in session tokens/cookies that are used to track and identify user sessions.
+TokenForcer was created in order to help web application security researchers and penetration testers identify weak, seemingly random values that are in fact created based on known inputs, such as values for session tokens/cookies that are used to track and identify user sessions.
 
 Sometimes these tokens may be a concatenation of data such as the username, password and the timestamp of when a user signed in and then hashed or encoded such as SHA1 or Base64.
 
@@ -23,7 +23,7 @@ Sometimes these tokens may be a concatenation of data such as the username, pass
 TokenForcer is designed to help users quickly iterate through all possible permutations and combinations of potential data used to craft such a token.
 
 ### How Do I?
-Basic usage will require an text file which has each of the suspected input values used to derive the final token on separate lines, the target token you want to match (e.g the value of the session cookie), and then the encoding and/or hashing combinations used to derive the final format of the token.
+Basic usage will require a text file which has each of the suspected input values used to derive the final token on separate lines, the target token you want to match (e.g the value of the session cookie), and then the encoding and/or hashing combinations used to derive the final format of the token.
 
 `python3 tokenForcer.py -i input.txt -o md5,b64 -t 81DC9BDB52D04DC20036DBD8313ED055`
 ```
